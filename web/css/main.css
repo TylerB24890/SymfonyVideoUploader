@@ -1,0 +1,38 @@
+
+
+body {
+	color: #333;
+	font-family: Verdana, sans-serif;
+}
+
+tr { margin: 15px; }
+td { padding: 15px; }
+
+ul.error_list li{
+	color: red;
+	margin: 10px 0;
+	font-weight: bold;
+}
+li {
+	margin: 10px 0;
+}
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 15px;
+}
+
+video {
+	max-height: 480px;
+	max-width: 720px;
+}
+.flowplayer  {
+	max-height: 480px;
+	max-width: 720px;
+}
+
+input[type='submit'] {
+	margin-left: 75px;
+	height: 35px;
+	width: 60px;
+}

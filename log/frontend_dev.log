@@ -1,0 +1,62 @@
+May 10 19:20:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 10 19:20:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 10 19:20:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 10 19:20:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 10 19:20:55 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+May 10 19:20:55 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\video-app\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 10 19:20:55 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 10 19:20:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 10 19:20:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 10 19:20:55 symfony [info] {sfWebDebugLogger} Configuration 143.72 ms (10)
+May 10 19:20:55 symfony [info] {sfWebDebugLogger} Factories 123.20 ms (1)
+May 10 19:20:55 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+May 10 19:20:55 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 32.33 ms (1)
+May 10 19:20:55 symfony [info] {sfWebResponse} Send content (29712 o)
+May 10 19:20:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /video with parameters array (  'module' => 'video',  'action' => 'index',)
+May 10 19:20:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 10 19:20:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 10 19:20:58 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+May 10 19:20:58 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    9.5 MB | mempeak:    9.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+May 10 19:20:58 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:   10.0 MB | mempeak:   10.0 MB | memdelta:      0.0 B | SELECT videos.ID, videos.FIRST_NAME, videos.LAST_NAME, videos.EMAIL, videos.DISPLAY_NAME, videos.FILE FROM `videos`
+May 10 19:20:58 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\modules/video/templates/indexSuccess.php"
+May 10 19:20:58 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:20:58 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:20:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 10 19:20:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 10 19:20:58 symfony [info] {sfWebDebugLogger} Configuration 37.51 ms (10)
+May 10 19:20:58 symfony [info] {sfWebDebugLogger} Factories 26.79 ms (1)
+May 10 19:20:58 symfony [info] {sfWebDebugLogger} Action "video/index" 51.70 ms (1)
+May 10 19:20:58 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 17.36 ms (1)
+May 10 19:20:58 symfony [info] {sfWebResponse} Send content (31381 o)
+May 10 19:22:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /video/new with parameters array (  'module' => 'video',  'action' => 'new',)
+May 10 19:22:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 10 19:22:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 10 19:22:13 symfony [info] {videoActions} Call "videoActions->executeNew()"
+May 10 19:22:14 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\modules/video/templates/newSuccess.php"
+May 10 19:22:14 symfony [info] {sfPartialView} Render "C:\wamp\www\video-app\apps\frontend\modules/video/templates/_form.php"
+May 10 19:22:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:22:14 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:22:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 10 19:22:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 10 19:22:14 symfony [info] {sfWebDebugLogger} Configuration 11.02 ms (9)
+May 10 19:22:14 symfony [info] {sfWebDebugLogger} Factories 26.89 ms (1)
+May 10 19:22:14 symfony [info] {sfWebDebugLogger} Action "video/new" 15.22 ms (1)
+May 10 19:22:14 symfony [info] {sfWebDebugLogger} View "Success" for "video/new" 40.40 ms (1)
+May 10 19:22:14 symfony [info] {sfWebDebugLogger} Partial "video/_form" 13.01 ms (1)
+May 10 19:22:14 symfony [info] {sfWebResponse} Send content (34045 o)
+May 10 19:23:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /video with parameters array (  'module' => 'video',  'action' => 'index',)
+May 10 19:23:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 10 19:23:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 10 19:23:15 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+May 10 19:23:15 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    8.5 MB | mempeak:    8.5 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+May 10 19:23:15 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    8.8 MB | mempeak:    8.8 MB | memdelta:      0.0 B | SELECT videos.ID, videos.FIRST_NAME, videos.LAST_NAME, videos.EMAIL, videos.DISPLAY_NAME, videos.FILE FROM `videos`
+May 10 19:23:15 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\modules/video/templates/indexSuccess.php"
+May 10 19:23:15 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:23:15 symfony [info] {sfPHPView} Render "C:\wamp\www\video-app\apps\frontend\templates/layout.php"
+May 10 19:23:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 10 19:23:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 10 19:23:15 symfony [info] {sfWebDebugLogger} Configuration 11.01 ms (9)
+May 10 19:23:15 symfony [info] {sfWebDebugLogger} Factories 27.85 ms (1)
+May 10 19:23:15 symfony [info] {sfWebDebugLogger} Action "video/index" 16.98 ms (1)
+May 10 19:23:15 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 12.75 ms (1)
+May 10 19:23:15 symfony [info] {sfWebResponse} Send content (31457 o)

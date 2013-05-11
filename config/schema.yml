@@ -1,0 +1,12 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  videos:
+    _attributes: { phpName: Videos }
+    id: { phpName: Id, type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    first_name: { phpName: FirstName, type: VARCHAR, size: '255', required: true }
+    last_name: { phpName: LastName, type: VARCHAR, size: '255', required: true }
+    email: { phpName: Email, type: VARCHAR, size: '255', required: true }
+    display_name: { phpName: DisplayName, type: VARCHAR, size: '255', required: true }
+    file: { phpName: File, type: VARCHAR, size: '255', required: true }
