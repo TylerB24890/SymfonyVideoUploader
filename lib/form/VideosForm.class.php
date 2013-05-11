@@ -38,11 +38,11 @@ class VideosForm extends BaseVideosForm
 			
 			//validate the video file
 			'file'         => new sfValidatorFile(array(
-													'max_size' => 2097152, //2mb
-													'mime_types' => array('video/mp4'), //must be .mp4 video
-													'path' => sfConfig::get('sf_upload_dir').'/videos', //define path to upload the video
-													'required' => true, //require a file to submit form
-													)),
+								     'max_size' => 2097152, //2mb
+								     'mime_types' => array('video/mp4'), //must be .mp4 video
+								     'path' => sfConfig::get('sf_upload_dir').'/videos', //define path to upload the video
+								     'required' => true, //require a file to submit form
+							      )),
 		));
 		
 		$this->widgetSchema->setNameFormat('videos[%s]');
